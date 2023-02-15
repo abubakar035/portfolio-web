@@ -144,15 +144,17 @@ color: #84b840;
     
 }
 .sib{
-    background-color: #484848;
+    background-color: #fff;
     flex: 3;
+    padding: 20px;
 }
 .ch16{
     display: flex;
 }
 .sib2{
-    background-color: red;
+    background-color: #fff;
     flex: 1;
+    padding: 20px;
 }
 
 .card{
@@ -179,5 +181,41 @@ color: #84b840;
 .card_ch18:hover{
     color: #84b840;
 }
+.footer{
+    background-color: #282828;
+    color: #fff;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+.fot_ch20{
+    display: flex;
+    background-color:#282828;
+    justify-content: space-around;
+}
+.gch22{
+    
+    background-color:#282828;
+    
+}
+
+.fgch1{
+    
+    color: #fbfbff; }
+.az{
+    text-decoration: none;
+    list-style: circle;
+}
+
+.abb5{
+color: #f9f9fb;
+text-decoration: none;
+
+}
+.btn3{
+    background-color: red;
+    height: 40px;
+    border-radius: 10px;
+}
+
 
 
