@@ -113,11 +113,67 @@ color: #84b840;
      display: flex;
      justify-content: space-between;
 }
+
 .mid_ch6{
-    background-color: darkgreen;
+    background-color: #626078;
     height: 580px;
-    flex: 4.3;
+    flex: 7;
     margin: 30px;
+    display: flex;
+    position: relative;
+
+}
+.mch6_ch1{
+        position: absolute;
+        top: 150px;
+        left: 100px;
+        z-index: 2;
+}
+.mch6_ch2{
+    position: absolute;
+        left: 230px;
+        border-radius: 100%;
+        background-color: #2d2d39;
+        z-index: 1;
+}
+.mch6_ch3{
+    position: absolute;
+    left: 600px;
+    top:150px ;
+    z-index: 3;
+        
+}
+.mch6_ch4{
+    border: solid 1px red;
+    background-color: #413e4f;
+    position: absolute;
+    left: 100px;
+    top:350px ;
+    width: 680px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+        
+}
+.mch6_ch5{
+    background-color: #282834;
+    border: solid 1px red;
+    position: absolute;
+    
+    top: 400px;
+    width: 100%;
+    height: 175px;
+    z-index: 1;
+    display: flex;
+        
+}
+.mch6_ch5_ch1{
+    
+    
+}
+.mch6_ch5_ch2{
 
 }
 .mid_ch7{
@@ -217,5 +273,186 @@ text-decoration: none;
     border-radius: 10px;
 }
 
+/* pagessssssssssssssssssssssss */
+
+.bd{
+    background-color: #626078;
+    margin: 40px;
+}
+.p_box{
+    display: flex;
+    height: auto;
+    /* width: 1440px; */
+    
+}
+.box1{
+    background-color: #606176;
+    flex: 0.3;
+    
+    
+    
+}
+.box_ch3{
+    background-color: #606176;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.box_ch4{
+    background-color: #55556d;
+    border-radius: 100%;
+    width: 18px;
+    height: 18px;
+}
+.box_ch1{
+ background-color: hsla(150, 12%, 97%, 0.897);
+ display: flex;
+ flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 30px;
+     height: 220px;
+     padding: 10px;
+    
+}
+    .box_ch2{
+        height: 60px;
+        width: 60px;
+        border-radius: 20px;
 
 
+}
+.box2{
+    flex: 1.5;
+    width: ;
+    /* background-color: #363543; */
+    /* border: solid 2px white;     */
+    background-color: #363543;
+    /* margin-right: 250px; */
+    min-width: 1024px;
+
+}
+.box3{
+    background-color: #2a8c99;
+    
+    
+}
+
+.box_ch5{
+    font-size:25px;
+    color: white;
+    padding-left: 40px;
+    border: solid 2px green;
+    background-color: #5e5f74;
+
+}
+.box_color{
+    color:#feba21;
+}
+.box_ch6{
+  display: flex;
+  justify-content: space-around;
+  border: solid 2px pink;
+  background-color: #363543;
+
+}
+.box_ch7{
+    margin-right: 15px;
+    /* background-color: #606176; */
+
+
+}
+.box_ch9{
+    color: white;
+}
+.box_ch8{
+    word-spacing: 30px;
+    color: #606176 ;
+}
+.box_home{
+    color: white;
+}
+.box_ch10{
+    display: flex;
+    font-size: 32px;
+    position: relative;
+    background-color: #363543;
+}
+.box_ch11{
+     /* border: solid 1px black; */
+     z-index: 2;
+     position: absolute;
+     font-size: 35px;
+     margin-top: 70px;
+     margin-left: 40px;
+     color: white;
+    }
+.box_ch12{
+    /* border: solid 1px green; */
+    background-color: #2d2d39;
+    border-radius: 100%;
+    margin-top: 20px;
+    z-index: 1;
+    position: absolute;
+    width: 320px;
+    height: 300px;
+    margin-left: 250px;
+}
+.box_ch13{
+    /* border: solid 1px yellow; */
+    z-index: 3;
+    position: absolute;
+    font-size: 22px;    
+    margin-left: 490px;
+    margin-top: 70px;
+    color: #c0bfcd;
+}
+.box_ch14{
+    height: 4px;
+    width: 150px;
+    background-color: #f1bb43;
+    border-radius: 15%;
+}
+.box_span{
+    font-size: 14px;
+    color: rgb(136, 128, 128);
+}
+.box_span1{
+    color: rgb(136, 128, 128);
+
+}
+.box_span2{
+    display: block;
+    color: #f1bb43;
+    font-size: 11px;
+}
+.box_ch15{
+    /* border: solid 2px brown; */
+
+}
+.box_ch16{
+    margin-top: 400px ;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    width: 80%;
+    height: 50px;
+    justify-content: space-between  ;
+    /* border: solid 1px red; */
+    height: auto;
+
+}
+.box_ch17{
+    background-color: palegoldenrod;
+    height: 45px;
+    width: 80px;
+    /* border: solid 2px gold; */
+
+}
+.box_ch18{
+    
+}
